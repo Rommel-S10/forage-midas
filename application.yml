@@ -1,2 +1,8 @@
 general:
   kafka-topic: alaska
+
+spring:
+  kafka:
+    consumer:
+      group-id: group
+      auto-offset-reset: earliest
